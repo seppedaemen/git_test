@@ -25,6 +25,7 @@ header h1 {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    max-width: 100%;
 }
 
 .hero-container h1 {
@@ -38,6 +39,7 @@ header h1 {
     width: auto;
     margin-left: 200px;
     margin-right: 200px;
+    gap: 5rem;
 }
 
 .top-bar-container {
@@ -70,5 +72,5 @@ header h1 {
 }
 
 .hero-container-item-1, .hero-container-item-2 {
-    max-width: 50%;
+    width: 50%;
 }
