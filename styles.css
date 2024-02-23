@@ -32,11 +32,7 @@ header h1 {
     font-weight: extra-bold;
     font-size: 48px;
 }
-/* 
-.hero-container p {
-    color: #E5E7EB;
-    font-size: 18px;
-} */
+
 
 .header-container {
     width: auto;
@@ -50,6 +46,21 @@ header h1 {
     padding-top: 2rem;
 }
 
-.hero-container .button {
-    background-color: #3882F6;
+.hero-container {
+    display: flex;
+    margin: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
+
+.hero-container img {
+    max-width: 700px;
+}
+
+.button {
+    background-color: #3882F6;
+    max-width: 100px;
+    border-radius: 10px;
+}
+
