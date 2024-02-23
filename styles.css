@@ -68,3 +68,7 @@ header h1 {
     text-align: center;
     padding: 10px;
 }
+
+.hero-container-item-1, .hero-container-item-2 {
+    max-width: 50%;
+}
