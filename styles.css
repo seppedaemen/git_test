@@ -30,7 +30,7 @@ header h1 {
 
 .hero-container h1 {
     color: #F9FAF8;
-    font-weight: extra-bold;
+    font-weight: bolder;
     font-size: 48px;
 }
 
@@ -66,7 +66,7 @@ header h1 {
     background-color: #3882F6;
     max-width: 100px;
     border-radius: 10px;
-    padding-top: 2rem;
+    margin-top: 2rem;
 }
 
 .button-text {
@@ -86,7 +86,8 @@ header h1 {
 .section-2 h2 {
     color: #1F2937;
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bolder;
+    margin: 2rem;
 }
 
 .section-2-container {
@@ -97,7 +98,7 @@ header h1 {
 .section-2 h2 {
     color: #1F2937;
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     align-self: center;
 }
 
@@ -108,9 +109,15 @@ header h1 {
 
 .quote-text {
     font-size: 36px;
-    font: light italic;
+    font: italic;
+    font-weight: lighter;
     color: #1F2937;
     align-self: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.quote-caption {
+    text-align: right;
+    font-weight: bold;
 }
