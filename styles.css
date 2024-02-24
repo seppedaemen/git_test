@@ -54,6 +54,8 @@ header h1 {
     margin-bottom: 5rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    gap: 2rem;
+    align-items: center;
 }
 
 .hero-container img {
@@ -68,12 +70,13 @@ header h1 {
 
 .button-text {
     text-align: center;
-    padding: 10px;
+    padding: 10px, 20px;
+
 }
 
 .hero-container-item-1, .hero-container-item-2 {
     width: 50%;
-    padding: 5rem;
+    gap: 2rem;
 }
 .section-2 {
     padding: 5rem;
@@ -88,4 +91,23 @@ header h1 {
 .section-2-container {
     display: flex;
     gap: 5rem;
+}
+
+.section-2 h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    align-self: center;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    font: light italic;
+    color: #1F2937;
+    align-self: center;
 }
