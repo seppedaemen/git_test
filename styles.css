@@ -67,12 +67,11 @@ header h1 {
     max-width: 100px;
     border-radius: 10px;
     margin-top: 2rem;
+    padding: 20px, 40px;
 }
 
 .button-text {
     text-align: center;
-    padding: 10px, 20px;
-
 }
 
 .hero-container-item-1, .hero-container-item-2 {
@@ -90,21 +89,19 @@ header h1 {
     margin: 2rem;
 }
 
+.section-2-container-item {
+    max-width: 10rem;
+}
+
 .section-2-container {
     display: flex;
     gap: 5rem;
 }
 
-.section-2 h2 {
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: bolder;
-    align-self: center;
-}
-
 .section-3 {
     background-color: #E5E7EB;
     text-align: center;
+    padding: 2rem, 5rem;
 }
 
 .quote-text {
