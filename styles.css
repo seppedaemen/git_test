@@ -66,6 +66,7 @@ header h1 {
     background-color: #3882F6;
     max-width: 100px;
     border-radius: 10px;
+    padding-top: 2rem;
 }
 
 .button-text {
@@ -76,10 +77,10 @@ header h1 {
 
 .hero-container-item-1, .hero-container-item-2 {
     width: 50%;
-    gap: 2rem;
 }
 .section-2 {
     padding: 5rem;
+    text-align: center;
 }
 
 .section-2 h2 {
@@ -102,7 +103,7 @@ header h1 {
 
 .section-3 {
     background-color: #E5E7EB;
-
+    text-align: center;
 }
 
 .quote-text {
@@ -110,4 +111,6 @@ header h1 {
     font: light italic;
     color: #1F2937;
     align-self: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
